@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Bren</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img\favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <!-- cabecera + logo + nav menu-->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section id="home">
+        <!-- presentacion -->
+            <h1>Brenda Mendoza</h1>
+            <p> Aspiring web developer, passionate about technology and backend.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <p>
+                    Hi! I'm Bren, a passionate and driven web developer with a growing expertise in front-end and back-end technologies. I'm currently pursuing a Programming Technician degree at the National Technological University (UTN), where I've developed strong skills in Python, .NET, C#, and SQL.
+                </p>
+                <p>
+                    I'm particularly focused on enhancing my capabilities in C# and ASP.NET for web application development. My hands-on experience includes working on an MVP project to implement a chatbot with generative AI, where I've applied my programming skills to create practical solutions.
+                </p>
+                <p>
+                    I'm always eager to take on new challenges and contribute to innovative projects. My core values continuous learning, problem-solving, and a commitment to excellence-drive everything I do.
+                </p>
+                <p>
+                    As I continue to grow in the tech field, I'm also improving my English to effectively collaborate in international environments. 
+                </p>
+                <p class="highlight">Let's connect and see how we can create something amazing together!</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/brenda-d-mendoza" target="_blank">
+                        <img src="img/linkedin-icon.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/brenda-mendoza" target="_blank">
+                        <img src="img/github-icon.png" alt="GitHub">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills">
+        <!-- lenguajes -->
+            <h2>Skills</h2>
+            <div class="skills-image">
+                <img src="img\technical_skills_img.jpg" alt="Technical Skills">
+            </div>
+        </section>
+        
+        <section id="projects">
+            <div id="kanban-board">
+            <div class="kanban-column todo-column">
+                    <h2>To Do</h2>
+                    <div class="kanban-item">Explore and deepen AI knowledge</div>
+                    <div class="kanban-item">Learn how to apply AI in app development</div>
+                    <div class="kanban-item">Find a job opportunity to enhance my programming skills</div>
+                </div>
+                <div class="kanban-column in-progress-column">
+                    <h2>In Progress</h2>
+                    <div class="kanban-item">ASP.NET</div>
+                    <div class="kanban-item">Chatbot IA training</div>
+                    <div class="kanban-item">Improving my English</div>
+                    <div class="kanban-item">Always learning...</div>
+                </div>
+                <div class="kanban-column done-column">
+                    <h2>Done</h2>
+                    <a class="kanban-link" href="https://github.com/brenda-mendoza/tinyalien" target="_blank">
+                        <div class="kanban-item">
+                            <img src="img\mi_primer_juego.png" alt="game image">
+                            <p>Video game developed with Python (Pygame), connected to SQL, and file handling, created for the Programming and Laboratory I course at UTN.</p>
+                        </div>
+                    </a>
+
+                    <a class="kanban-link" href="https://github.com/brenda-mendoza/proyecto-integrador" target="_blank">
+                        <div class="kanban-item">
+                            <img src="img\mi_primer_ecommerce.png" alt="ecommerce image" >
+                            <p>E-commerce built with HTML, CSS, and vanilla JavaScript, connected to MongoDB. </p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="contact">
+        <!-- contacto -->
+            <h2>Contact</h2>
+            <form id="form-contact" action="https://formspree.io/f/xvgpleor" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit"> Send </button>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <h3>&copy; 2024 Brenda's Portfolio</h3>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/brenda-d-mendoza" target="_blank">
+                <img src="img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/brenda-mendoza" target="_blank">
+                <img src="img/github-icon.png" alt="GitHub">
+            </a>
+        </div>
+        <p>
+            <a href="https://www.freepik.com/author/juicy-fish/icons/">Icons by juicy_fish</a>
+        </p>
+    </footer>
+</body>
+</html>
